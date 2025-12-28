@@ -1,0 +1,84 @@
+.api-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.api-service .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.api-service .description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.api-service .api-method {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.api-service .api-method h2 {
+  margin-top: 0;
+}
+
+.api-service .api-method .endpoint {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.api-service .api-method .method {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.api-service .api-method .params {
+  font-size: 16px;
+  color: #666;
+}
+
+.api-service .api-method .response {
+  font-size: 16px;
+  color: #666;
+}
+
+.api-service .api-method .example {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.api-service .api-method .example p {
+  margin-bottom: 20px;
+}
+
+.api-service .api-method .example .json {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.api-service .api-method .example .code {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.api-service .api-method .example .code .line {
+  padding: 0;
+  margin: 0;
+}
